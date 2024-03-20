@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextEditor</title>
+    <style>
+        .fdiv{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           height: auto;
+           height: 50vh;
+           
+           border: 1px solid black;
+        }
+        h2{
+           align-self: center;
+        }
+        input{
+           height: 20px;
+           width: 200px;
+           border: 1px solid black;
+        }
+        p{
+         border: 1px solid black;
+           height: 150px;
+           width: 80%;
+           background-color: beige;
+        }
+       </style>
+</head>
+<body>
+    <div class="fdiv">
+        <h2>Text Editor</h2>
+        <input type="text" id="textInput" placeholder="Text here..">
+       
+        <p id="displayText">See Hear:</p>
+        <button id="copyBtn">Copy</button>
+     </div>
+     <script src="day5textedit.js"></script>
+</body>
+</html>
