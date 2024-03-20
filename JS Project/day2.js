@@ -7,6 +7,7 @@ function generatePassword() {
         password += charset[randomIndex];
     }
     document.getElementById("password").value = password;
+    //updataed
 }
 
 
