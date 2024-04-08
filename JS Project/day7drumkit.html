@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Drum Kit </title>
+    <link rel="stylesheet" href="day7drumkit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <h1 id="title">Drum <i  class="fa-solid fa-drum" id="drum"></i> Kit</h1>
+
+  <div class="set">
+    <button id="drumw">w</button>
+    <button id="druma">a</button>
+    <button id="drums">s</button>
+    <button id="drumd">d</button>
+    <button id="drumj">j</button>
+    <button id="drumk">k</button>
+    <button id="druml">l</button>
+  </div>
+
+  <script>
+
+    const first = document.getElementById("drumw");
+
+    first.addEventListener("click", function() {
+        const audio = new Audio("firstsound.wav");
+        audio.play();
+    });
+
+  </script>
+
+</body>
+</html>
