@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif; 
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px; 
+}
+
+.timer-display {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 20px; /* Add some space below the timer */
+}
+
+.buttons button {
+  font-size: 18px;
+  margin: 5px; /* Add some space between buttons */
+}
